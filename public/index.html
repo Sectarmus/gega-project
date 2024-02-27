@@ -11,7 +11,7 @@
   <link href="./css/styles.css" rel="stylesheet">
   
 </head>
-<body>
+<body class="font-open">
   <!--Header Section-->
   <header class="bg-black py-6 lg:py-12 text-gega-grey uppercase">
     <!--Header Container-->
@@ -110,11 +110,11 @@
   <!--Movies Section-->
   <section class="py-24 bg-black">
     <!--Movies Content-->
-    <div class="container flex space-x-16">
+    <div class="container flex flex-col lg:flex-row lg:space-x-16 space-y-8 lg:space-y-0">
       <!--Left Content-->
       <div class="basis-2/3">
         <!--Titles-->
-        <div class="flex space-x-2 divide-x-2 divide-gega-red divide-opacity-50 mb-8">
+        <div class="flex space-x-2 divide-x-2 divide-gega-red divide-opacity-50 mb-8 pl-10 lg:pl-0">
           <h2 class="text-gega-red"><a href="#">Latest</a></h2>
           <h2 class="text-gega-grey pl-2 hover:text-gega-red duration-500"><a href="#">Populer</a></h2>
           <h2 class="text-gega-grey pl-2 hover:text-gega-red duration-500"><a href="#">Best</a></h2>
@@ -123,7 +123,7 @@
         <!--Images Container-->
         <div class="flex flex-wrap">
           <!--Image 1-->
-          <div class="group relative overflow-hidden basis-1/3">
+          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
             <!--Image-->
             <img src="./images/mv1.jpg" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
             <!--Image Detail Container-->
@@ -138,7 +138,7 @@
             </div>
           </div>
           <!--Image 2-->
-          <div class="group relative overflow-hidden basis-1/3">
+          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
             <!--Image-->
             <img src="./images/mv2.jpg" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
             <!--Image Detail Container-->
@@ -153,7 +153,7 @@
             </div>
           </div>
           <!--Image 3-->
-          <div class="group relative overflow-hidden basis-1/3">
+          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
             <!--Image-->
             <img src="./images/mv3.jpg" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
             <!--Image Detail Container-->
@@ -168,7 +168,7 @@
             </div>
           </div>
           <!--Image 4-->
-          <div class="group relative overflow-hidden basis-1/3">
+          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
             <!--Image-->
             <img src="./images/mv4.jpg" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
             <!--Image Detail Container-->
@@ -183,7 +183,7 @@
             </div>
           </div>
           <!--Image 5-->
-          <div class="group relative overflow-hidden basis-1/3">
+          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
             <!--Image-->
             <img src="./images/mv5.jpg" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
             <!--Image Detail Container-->
@@ -198,7 +198,7 @@
             </div>
           </div>
           <!--Image 6-->
-          <div class="group relative overflow-hidden basis-1/3">
+          <div class="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
             <!--Image-->
             <img src="./images/mv6.jpg" class="group-hover:scale-110 group-hover:opacity-50 duration-500">
             <!--Image Detail Container-->
@@ -215,13 +215,13 @@
         </div>
       </div>
       <!--Right Content-->
-      <div class="basis-1/3">
+      <div class="basis-1/3 pl-10 lg:pl-0">
         <!--Title-->
         <h2 class="text-gega-grey mb-8">Hot News</h2>
         <!--News Container-->
-        <div class="flex flex-col h-full justify-between pb-16">
+        <div class="flex flex-row lg:flex-col lg:h-full justify-start lg:justify-between lg:pb-16 flex-wrap lg:flex-nowrap space-y-4">
           <!--Item 1-->
-          <div class="flex items-center group">
+          <div class="flex items-center group basis-3/4 md:basis-1/2">
             <!--News Image Container-->
             <div class="basis-1/3 h-full">
               <img src="./images/new1.jpg" class="h-full w-full object-cover">
@@ -233,7 +233,7 @@
             </div>
           </div>
           <!--Item 2-->
-          <div class="flex items-center group">
+          <div class="flex items-center group basis-3/4 md:basis-1/2">
             <!--News Image Container-->
             <div class="basis-1/3 h-full">
               <img src="./images/new2.jpg" class="h-full w-full object-cover">
@@ -245,7 +245,7 @@
             </div>
           </div>
           <!--Item 3-->
-          <div class="flex items-center group">
+          <div class="flex items-center group basis-3/4 md:basis-1/2">
             <!--News Image Container-->
             <div class="basis-1/3 h-full">
               <img src="./images/new3.jpg" class="h-full w-full object-cover">
@@ -257,7 +257,7 @@
             </div>
           </div>
           <!--Item 4-->
-          <div class="flex items-center group">
+          <div class="flex items-center group basis-3/4 md:basis-1/2">
             <!--News Image Container-->
             <div class="basis-1/3 h-full">
               <img src="./images/new4.jpg" class="h-full w-full object-cover">
@@ -269,7 +269,7 @@
             </div>
           </div>
           <!--Item 5-->
-          <div class="flex items-center group">
+          <div class="flex items-center group basis-3/4 md:basis-1/2">
             <!--News Image Container-->
             <div class="basis-1/3 h-full">
               <img src="./images/new5.jpg" class="h-full w-full object-cover">
