@@ -11,9 +11,15 @@
   <link href="./css/styles.css" rel="stylesheet">
   
 </head>
-<body class="font-open">
+<body class="font-open dark">
+
+  <!--Dark/Light Toggle-->
+  <div class="absolute top-1 left-5 cursor-pointer text-lg">
+    <i class="fa-solid fa-sun text-white" id="sun"></i>
+    <i class="fa-solid fa-moon text-dark hidden" id="moon"></i>
+  </div>
   <!--Header Section-->
-  <header class="bg-black py-6 lg:py-12 text-gega-grey uppercase">
+  <header class="dark:bg-black bg-white py-6 lg:py-12 text-black dark:text-gega-grey uppercase">
     <!--Header Container-->
     <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
       <!--Logo-->
@@ -32,11 +38,11 @@
       <nav class="hidden md:flex justify-between flex-1">
         <!--Menu-->
         <div class="flex items-center lg:text-lg space-x-4 lg:space-x-8">
-          <a href="#" class="hover:text-gega-melon text-white transition duration-500">movies</a>
-          <a href="#" class="hover:text-gega-melon text-white transition duration-500">celebrities</a>
-          <a href="#" class="hover:text-gega-melon text-white transition duration-500">blogs</a>
-          <a href="#" class="hover:text-gega-melon text-white transition duration-500">news</a>
-          <a href="#" class="hover:text-gega-melon text-white transition duration-500">about</a>
+          <a href="#" class="hover:text-gega-melon text-black dark:text-white transition duration-500">movies</a>
+          <a href="#" class="hover:text-gega-melon text-black dark:text-white transition duration-500">celebrities</a>
+          <a href="#" class="hover:text-gega-melon text-black dark:text-white transition duration-500">blogs</a>
+          <a href="#" class="hover:text-gega-melon text-black dark:text-white transition duration-500">news</a>
+          <a href="#" class="hover:text-gega-melon text-black dark:text-white transition duration-500">about</a>
         </div>
         <!--Login Area-->
         <div class="flex items-center space-x-4 lg:space-x-8">
@@ -465,5 +471,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>
